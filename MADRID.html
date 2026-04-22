@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Madridi élménybeszámoló</title>
+
+<style>
+body{
+    font-family:Arial, sans-serif;
+    background:#EDD693;
+    margin:0;
+    padding:30px;
+    color:#000000;
+}
+
+.container{
+    max-width:1100px;
+    margin:60px auto 0 auto;   /* lejjebb került */
+    background:#FAF6DE;
+    padding:30px;
+    border-radius:22px;
+    box-shadow:0 6px 14px rgba(0,0,0,0.15);
+}
+
+h1{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:25px;
+}
+
+p{
+    font-size:18px;
+    line-height:1.7;
+    margin-bottom:20px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:18px;
+    margin-top:25px;
+}
+
+.gallery img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+    border-radius:16px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.12);
+}
+
+.footer{
+    text-align:center;
+    margin-top:25px;
+    color:#444;
+}
+
+.home-button{
+    position:fixed;
+    top:20px;
+    left:20px;
+    background-color:#C2A951;
+    color:black;
+    padding:10px 15px;
+    border-radius:50px;
+    text-decoration:none;
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+
+.home-button:hover{
+    background-color:#F2EAC9;
+    transform:scale(1.05);
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Madridi élménybeszámoló</h1>
+
+<p>Madridban jártunk 2024. 04. 01-05-ig.</p>
+
+<p>Eleinte kicsit hűvös, de a végére szép napos időnk volt. Rengeteg helyen jártunk, és minden nap új helyeket fedeztünk fel. Voltunk templomokban, sétáltunk parkokban, jártunk múzeumokban, például a Prado múzeumban. Napi 25-30.000 lépést tettünk meg, amitől a nap végére mindenki kellően elfáradt. </p>
+
+<p>Megkóstóltuk a helyi ételeket, köztük a churrost is. Készült tiramisu is, bár elsőre nem sikerült túl jól, hiszen a 100g cukor helyett 1 kiló került bele, amitől egyesek majdnem cukormérgezést kaptak, de másodikra már tökéletesen sikerült.</p>
+
+<p>Nagyon jól éreztük magunkat, és rengeteg új emlékkel tértünk haza.</p>
+
+<div class="gallery">
+<img src="madrid1.jpg" alt="Madrid">
+<img src="madrid2.jpg" alt="Madrid">
+<img src="madrid3.jpg" alt="Madrid">
+<img src="madrid4.jpg" alt="Madrid">
+<img src="madrid5.jpg" alt="Madrid">
+<img src="madrid6.jpg" alt="Madrid">
+</div>
+
+<div class="footer">
+Práger Panna – Madrid
+</div>
+
+</div>
+
+<a href="index.html" class="home-button">Főoldal</a>
+
+</body>
+</html>
