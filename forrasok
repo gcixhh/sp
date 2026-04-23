@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Források</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #EDD693;
+      color: #1f2937;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      display: grid;
+      gap: 24px;
+      justify-items: center;
+    }
+    .card {
+      width: 100%;
+      max-width: 700px;
+      background: #FAF6DE;
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 20px;
+      padding: 24px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+	 
+    }
+    h1 { font-size: 2.2rem;
+	margin-bottom: 10px; 
+	text-align: center;}
+    h2 { margin-bottom: 16px; color: #000000; text-align: center;}
+    p { line-height: 1.6; margin-bottom: 12px; }
+    ul { list-style: none; }
+    li { margin: 12px 0; }
+    a {
+      color: #73736B;
+      text-decoration: none;
+      font-weight: bold;
+	  
+    }
+   
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Források</h1>
+      <p>Az alábbi linkekre kattintva megtekinthetik a weboldalhoz használt képek, szövegek és az esztétikával kapcsolatos forrásokat. </p>
+    </div>
+
+    <div class="card">
+      <h2>1. A weboldal felépítése</h2>
+		<li><a href="https://padlet.com/szendigabriella/matech-2dmmnadetua64yqd/wish/v3w8Zw852wm4WN52/">Segédlet.pdf</a></li>
+        <li><a href="https://youtu.be/vlDAQXqOqKo?si=O0dKBTvy6yyUWAB3/" target="_blank">Simple Website Layout From Scratch Using HTML/CSS :D</a></li>
+        <li><a href="https://youtu.be/5Qsslt5xHTU?si=cw6KV22aDD7KEI63/" target="_blank">Learn HTML Containers: (div, span)</a></li>
+		<li><a href="https://youtube.com/shorts/UvP6uU02OX0?si=Y9e90gMxSPvJVWE_/" target="_blank">Amazing CSS Hover Effects & Transitions</a></li>
+      
+    </div>
+
+    <div class="card">
+      <h2>2. Tartalom</h2>
+	   <li><a href="https://am.ozon.com/search/?deny_category_prediction=true&from_global=true&text=Моно+приправы%2C+специи+и+травы&product_id=1156670812/" target="_blank">Paella</a></li>
+	   <li><a href="https://www.mindmegette.hu/karacsony/alkoholmentes-karacsonyi-bole-recept/" target="_blank">Sangria</a></li>
+	   <li><a href="https://hu.wikipedia.org/wiki/Spanyolország_közigazgatási_beosztása/" target="_blank">Terkep</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Flag_of_Andalusia/" target="_blank">Andaluzia</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Aragon/" target="_blank">Aragonia</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Asturias/" target="_blank">Aszturia</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Balearic_Islands/" target="_blank">Balearok</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Basques/" target="_blank">Baszkfold</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Flag_of_Extremadura/" target="_blank">Extremadura</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Flag_of_Galicia/" target="_blank">Galicia</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Flag_of_the_Canary_Islands" target="_blank">Kanari-szigetek</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Flag_of_Cantabria/" target="_blank">Kantabria</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Flag_of_Castilla–La_Mancha/" target="_blank">Kasztilia-La Mancha</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Flag_of_Castile_and_León/" target="_blank">Kasztilia es Leon</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Senyera/" target="_blank">Katalonia</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Flag_of_La_Rioja/" target="_blank">La Rioja</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Flag_of_the_City_of_Madrid/" target="_blank">Madrid</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Flag_of_the_Region_of_Murcia/" target="_blank">Murcia</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Flag_of_Navarre/" target="_blank">Navarra</a></li>
+	   <li><a href="https://en.wikipedia.org/wiki/Flag_of_the_Valencian_Community/" target="_blank">Valencia</a></li>
+	   <li><a href="https://www.lakaskultura.hu/egyeb/sagrada-familia-templom-gaudi/" target="_blank">Sagrada Familia</a></li>
+	   <li><a href="https://www.getyourguide.com/hu-hu/gaudi-haz-muzeum-l4330/" target="_blank">Guell park</a></li>
+	   <li><a href="https://www.unicohotels.com/en/blog/the-principal-madrid/the-museo-de-prado-celebrates-its-bicentenary/" target="_blank">Prado Muzeum</a></li>
+	   <li><a href="https://hu.wikipedia.org/wiki/Fájl:Monumental_Plaza_de_España_de_Sevilla.jpg/" target="_blank">Plaza de Espana</a></li>
+	   <li><a href="https://roadster.hu/vilag-legszebb-akvariumai/" target="_blank">Oceanofgrafic</a></li>
+	   <li><a href="https://www.ricksteves.com/europe/spain/costa-del-sol/" target="_blank">Costa del Sol</a></li>
+	   <li><a href="https://www.portfolio.hu/gazdasag/20251120/kronikus-pazarlobol-peldakep-igy-utasitotta-maga-moge-europat-a-mediterran-orszag-800184/" target="_blank">Costa Brava</a></li>
+	   <li><a href="https://www.serneholtestate.com/2919-costa-blanca-area-guide/" target="_blank">Costa Blanca</a></li>
+	   <li><a href="https://www.istockphoto.com/hu/fotó/bolonia-beach-homokdűne-cadiz-tartomány-andalúzia-spanyolország-gm576894874-99140597/" target="_blank">Costa de la Luz</a></li>
+	   <li><a href="https://www.facebook.com/nandubistro/posts/láttál-már-flamenco-táncosnőt-élőbenakkor-most-itt-a-lehetőségegy-hét-múlva-jan-/608135198635374/" target="_blank">Flamenco tancos</a></li>
+	   <li><a href="https://kepzeletvagyvalosag.blog.hu/2020/05/09/het_furcsa_spanyol_fesztival/" target="_blank">La Tomatina</a></li>
+	   <b>Az élménybeszámolóhoz használt képek sajátkészítésűek.
+    
+    </div>
+
+  </div>
+</body>
+</html>
